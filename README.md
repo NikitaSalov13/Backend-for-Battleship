@@ -1,4 +1,4 @@
-# 🚢 Battleship C++ Backend 🏴‍☠️
+#  Battleship C++ Backend 
 
 
 ## 🎯 Overview
