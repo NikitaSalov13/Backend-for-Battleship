@@ -77,7 +77,7 @@ Key commands include:
 | `shot [X Y]`                  | `<coords>` / `miss`/`hit`/`kill` | Fire or request next shot coordinates           
 | `set result miss|hit|kill`    | `ok`         | Provide outcome of the opponent’s shot              
 | `finished`                    | `yes`/`no`   | Is the game over?                                   
-| `win` / `lose`                | `yes`/`no`   | Did you win or lose? 🏆/                           
+| `win` / `lose`                | `yes`/`no`   | Did you win or lose?                           
 | `dump <PATH>`                 | `ok`         | Save board size and ship placements to file        
 | `load <PATH>`                 | `ok`         | Load board size and ship placements from file      
 
