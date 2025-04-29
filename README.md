@@ -1,11 +1,11 @@
 #  Battleship C++ Backend 
 
 
-## 🎯 Overview
+##  Overview
 
 This project provides a **console-based backend engine** for the classic Battleship game, implemented in modern C++. It supports two roles—**master** and **slave**—communicating via standard input/output streams. Ideal for automated strategy testing, tournaments, or integration into larger gaming systems.
 
-## ✨ Features
+##  Features
 
 - **Dynamic Configuration**: Arbitrary board sizes (width × height) and customizable ship counts ⚙️
 - **Two Roles**: `master` (defines game settings) and `slave` (follows provided settings) 🔄
@@ -15,7 +15,7 @@ This project provides a **console-based backend engine** for the classic Battles
 - **Full Command Set**: Comprehensive control via textual commands (`ping`, `create`, `set/get`, `start`, `stop`, `shot`, `set result`, `finished`, `win/lose`, `dump`/`load`) 📝
 - **Persistence**: Dump and load ship placements to/from text files for reproducible tests 📂
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ├── CMakeLists.txt          # CMake project definition
@@ -83,7 +83,7 @@ Key commands include:
 
 _For a detailed command reference, see the source in_ `Commands.cpp`.
 
-## 🕹️ Sample Game Session
+##  Sample Game Session
 
 Below is an example of a quick test match between a **slave** (Player 2) and a **master** (Player 1).
 
