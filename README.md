@@ -71,11 +71,11 @@ Key commands include:
 | `get height`                  | `<number>`   | Query current board height                         
 | `set count <size> <N>`        | `ok`/`failed`| Set number of ships of given size                   
 | `get count <size>`            | `<number>`   | Query count of ships of given size                  
-| `set strategy ordered|custom` | `ok`         | Choose firing strategy                            
+| `set strategy ordered/custom` | `ok`         | Choose firing strategy                            
 | `start`                       | `ok`         | Begin the game                                     
 | `stop`                        | `ok`         | Abort current game                                  
 | `shot [X Y]`                  | `<coords>` / `miss`/`hit`/`kill` | Fire or request next shot coordinates           
-| `set result miss|hit|kill`    | `ok`         | Provide outcome of the opponent’s shot              
+| `set result miss/hit/kill`    | `ok`         | Provide outcome of the opponent’s shot              
 | `finished`                    | `yes`/`no`   | Is the game over?                                   
 | `win` / `lose`                | `yes`/`no`   | Did you win or lose?                           
 | `dump <PATH>`                 | `ok`         | Save board size and ship placements to file        
